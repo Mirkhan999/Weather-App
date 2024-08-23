@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="87°F"
+        android:textSize="48sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostly Cloudy"
+        android:textSize="24sp"
+        android:layout_below="@id/textViewTemperature"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feels like 95F"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewCondition"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewRain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heavy rain is expected. The low will be 83F."
+        android:textSize="18sp"
+        android:layout_below="@id/textViewDetails"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>
